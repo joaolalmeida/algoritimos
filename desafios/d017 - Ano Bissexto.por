@@ -1,5 +1,9 @@
 programa
-{
+{	/*
+	d015: - Programa que leia em que ano qualquer e mostre uma 
+	mensagem dizendo se ele é ou não Bissexto.
+	Autor: João Almeida
+   */
 	
 	funcao inicio()
 	{
@@ -8,7 +12,7 @@ programa
 		escreva("Digite um ano qualquer: ")
 		leia(ano)
 
-		se (ano%4 == 0) {
+		se (ano % 4 == 0 e ano % 100 != 0 ou ano % 400 == 0) {
 			escreva("O ano " +ano+ " É BISSEXTO!")
 		}
 			senao {
@@ -21,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 233; 
+ * @POSICAO-CURSOR = 403; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
