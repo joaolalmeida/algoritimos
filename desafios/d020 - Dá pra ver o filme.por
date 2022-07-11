@@ -1,23 +1,35 @@
 programa
-{
-	inclua biblioteca Calendario --> c
+{	/*
+	d020: -Programa que leia quanto dinheiro a pessoa tem na carteira
+	e mostre se ela pode ou não entrar para assistir o filme. 
+	Não esqueça de considerar dois fatores: 
+	1º Se a pessoa tem dinheiro o suficiente para comprar o ingresso. 
+	2º Se a sessão do filme ainda não começou.
+   */	
+	inclua biblioteca Calendario --> c
 	funcao inicio()
 	{
-		escreva("========CINEMA ESTUDONAUTA========\n")
-		escreva("HORÁRIO DO FILME: 14h - PREÇO DO INGRESSO: R$20\n")
-		escreva("----------------------------------------------------")
+		escreva("\tCINEMA ESTUDONAUTA\t\n")
+		escreva("-------------------------------------------\n")
+		escreva("HORÁRIO DO FILME: \t\t 14h")
+		escreva("\nPREÇO DO INGRESSO: \t\t R$20\n")
+		escreva("===========================================")
 
 		real din
-		escreva("Quanto dinheiro você tem? R$")
+		escreva("\nAgora são "+c.hora_atual(falso)+ " Horas")
+		escreva("\nQuanto dinheiro você tem? R$")
 		leia(din)
+		escreva("==========================================\n")
 
 		inteiro hora = c.hora_atual(falso)
 		
 		se (hora != 13 e din <= 20) {
-			escreva("Agora são " +hora+ " horas. Infelizmente não é possivel comprar o ingresso!")
+			escreva("Infelizmente, não é possivel comprar o ingresso!")
+			escreva("\nTente outro dia!")
 		}
 			senao {
-				escreva("Agora são " +hora+ " horas. Você consegue comprar o ingresso!")
+				escreva("Você consegue comprar o ingresso.")
+				escreva("\nSEJA BEM-VINDO(A)!")
 			}
 	}
 }
@@ -26,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 583; 
+ * @POSICAO-CURSOR = 540; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

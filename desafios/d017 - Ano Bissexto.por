@@ -1,6 +1,6 @@
 programa
 {	/*
-	d015: - Programa que leia em que ano qualquer e mostre uma 
+	d017: - Programa que leia em que ano qualquer e mostre uma 
 	mensagem dizendo se ele é ou não Bissexto.
 	Autor: João Almeida
    */
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 403; 
+ * @POSICAO-CURSOR = 19; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

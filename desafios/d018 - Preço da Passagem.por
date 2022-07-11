@@ -1,6 +1,6 @@
 programa
 {	/*
-	d015: - Programa que leia a distância total de uma viagem (em km)
+	d018: - Programa que leia a distância total de uma viagem (em km)
 	e calcule o preço total da passagem, sabendo que ela custa R$0,50
 	para viagens até 200Km e R$0,35 para distâncias maiores.
    */
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 215; 
+ * @POSICAO-CURSOR = 19; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
