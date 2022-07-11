@@ -1,23 +1,29 @@
 programa
 {
-	inclua biblioteca Calendario --> c
+	inclua biblioteca Calendario --> c
 	funcao inicio()
 	{
-		escreva("========CINEMA ESTUDONAUTA========\n")
-		escreva("HORÁRIO DO FILME: 14h - PREÇO DO INGRESSO: R$20\n")
-		escreva("----------------------------------------------------")
+		escreva("\tCINEMA ESTUDONAUTA\t\n")
+		escreva("-------------------------------------------\n")
+		escreva("HORÁRIO DO FILME: \t\t 14h")
+		escreva("\nPREÇO DO INGRESSO: \t\t R$20\n")
+		escreva("===========================================")
 
 		real din
-		escreva("Quanto dinheiro você tem? R$")
+		escreva("\nAgora são "+c.hora_atual(falso)+ " Horas")
+		escreva("\nQuanto dinheiro você tem? R$")
 		leia(din)
+		escreva("==========================================\n")
 
 		inteiro hora = c.hora_atual(falso)
 		
 		se (hora != 13 e din <= 20) {
-			escreva("Agora são " +hora+ " horas. Infelizmente não é possivel comprar o ingresso!")
+			escreva("Infelizmente, não é possivel comprar o ingresso!")
+			escreva("\nTente outro dia!")
 		}
 			senao {
-				escreva("Agora são " +hora+ " horas. Você consegue comprar o ingresso!")
+				escreva("Você consegue comprar o ingresso.")
+				escreva("\nSEJA BEM-VINDO(A)!")
 			}
 	}
 }
