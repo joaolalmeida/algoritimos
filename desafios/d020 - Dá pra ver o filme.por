@@ -1,5 +1,11 @@
 programa
-{
+{	/*
+	d020: -Programa que leia quanto dinheiro a pessoa tem na carteira
+	e mostre se ela pode ou não entrar para assistir o filme. 
+	Não esqueça de considerar dois fatores: 
+	1º Se a pessoa tem dinheiro o suficiente para comprar o ingresso. 
+	2º Se a sessão do filme ainda não começou.
+   */	
 	inclua biblioteca Calendario --> c
 	funcao inicio()
 	{
