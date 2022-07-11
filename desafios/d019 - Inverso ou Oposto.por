@@ -1,5 +1,10 @@
 programa
-{
+{	/*
+	d019: -Programa que leia um número inteiro qualquer.
+	Se esse número for positivo, calcule o seu INVERSO.
+	Caso contrário, calcule seu OPOSTO.
+   */
+   
 	inclua biblioteca Tipos--> t
 	inclua biblioteca Matematica--> m
 	funcao inicio()
