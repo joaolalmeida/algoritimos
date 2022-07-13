@@ -1,6 +1,6 @@
 programa
 {	/*
-	d018: - Programa que leia um número qualquer
+	d021: - Programa que leia um número qualquer
 	e informe se ele é positivo, negativo ou nulo.
    */
 	
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 365; 
+ * @POSICAO-CURSOR = 372; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

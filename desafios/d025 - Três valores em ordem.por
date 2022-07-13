@@ -1,5 +1,8 @@
 programa
-{
+{	/*
+	d025: - Programa que leia três números inteiros 
+	e mostre-os em ordem crescente (do menor para o maior).
+   */
 	
 	funcao inicio()
 	{
@@ -52,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 600; 
+ * @POSICAO-CURSOR = 67; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
