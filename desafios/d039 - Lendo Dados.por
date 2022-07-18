@@ -1,5 +1,9 @@
 programa
-{
+{	/*
+	d039: - Programa que leia vários números ( o valor 9999 faz o programa parar )
+	no final de tudo, mostre na tela:  quantos valores foram digitados, a soma entre eles,
+	a média dos valores, qual foi o maior valor digitado.
+   */
 	inclua biblioteca Matematica --> m
 	inclua biblioteca Tipos --> t
 	funcao inicio()
@@ -34,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 454; 
+ * @POSICAO-CURSOR = 544; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
