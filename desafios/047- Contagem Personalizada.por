@@ -13,6 +13,7 @@ programa
 		leia(fim)
 		escreva("PASSSO = ")
 		leia(pas)
+		se (pas <= 0) pas *= -1
 		se (ini < fim) {
 			para (inteiro c = ini; c <= fim; c+= pas) {
 			 	escreva(c + "... ")
@@ -32,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 71; 
+ * @POSICAO-CURSOR = 603; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
